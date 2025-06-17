@@ -47,3 +47,27 @@ margin: 50px;
   border-radius: 30px;
   margin: 0px auto;    /*to center an element*/
 }
+
+/* Box Model
+The CSS Box Model is the foundation of layout and design in web development. Every HTML element is considered a box composed of four areas:
+
+Content – The actual text or image.
+
+Padding – Space between the content and the border.
+
+Border – A line surrounding the padding (and content).
+
+Margin – Space outside the border, separating the element from others.
+
+Together, these define how much space an element occupies on a page.
+*/
+
+.love2{
+  width: 300px;
+  height: 300px;
+  background-color: pink;
+  border: 3px solid green;
+  padding: 5px;
+  margin: 5px;
+  box-sizing: border-box;
+}
