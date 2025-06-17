@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introductions to CSS Fonts and Colors Properties</title>
+  <!-- added google fonts CDN -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <style>
+
+    /*Using Colors Properties in CSS*/
+    .nothing{
+      color: green; /*using named color*/
+      color: hsl(240, 60%, 30%); /*using hsl values*/
+      color: hsla(240, 60%, 30%, 0.4); /*using hsla values*/
+    }
+    .heading1{
+      color: rgb(67, 0, 255); /*using rgb colors*/
+      color: #0065F8; /*using hex colors*/
+    }
+    .heading2{
+      color: rgba(67, 0, 255, 0.3); /*using rgba colors*/
+    }
+
+    /*Using Font properties in CSS*/
+    .heading1{
+      font-style: italic;
+      font-size: 20px;
+    }
+
+    .heading2{
+      font-family: cursive;
+      font-family: "Ubuntu", sans-serif; /*use custom google font*/
+      font-family: "Shawon", sans-serif; /*use custom google font*/
+      font-size: 19px;
+    }
+
+    /*use any donloaded or owned font*/
+    @font-face {
+      font-family: "Shawon"; /*choose any name*/
+      src: url(./Rockybilly.ttf) format(truetype);
+    }
+
+    p{
+      font-weight: 900;
+      line-height: 25px;
+    }
+
+  </style>
+</head>
+<body>
+  <h1 class="heading1">Welcome to My CSS Github Repository</h1>
+  <h1 class="heading2">Welcome to My CSS Github Repository</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis cum laboriosam officia quisquam minus ex dignissimos veniam nostrum incidunt quia.</p>
+  <hr class="hRule">
+  <p class="nothing">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, eum?</p>
+</body>
+</html>
