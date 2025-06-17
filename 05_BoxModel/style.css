@@ -9,6 +9,18 @@
   /* border-top: 6px solid red;
   border-left: 4px solid yellow; */
   /* border-radius: 5px; */
-  border-top-right-radius: 8px;
+  /* border-top-right-radius: 8px; */
+}
 
+/* Padding Properties (space between border to content) */
+.container{
+  /* width: 500px;
+  height: 200px; */
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding: 30px 30px 40px 40px;
+  padding: 30px 50px;
+  padding: 50px;
 }
