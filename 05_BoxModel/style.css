@@ -24,3 +24,26 @@
   padding: 30px 50px;
   padding: 50px;
 }
+
+
+/* Margin Properties (space between parent to border) */
+.container{
+border: 3px solid pink;
+margin-top: 50px;
+margin-right: 50px;
+margin-bottom: 40px;
+margin-left: 30px;
+/* we can also use each value like padding */
+margin: 50px;
+}
+
+.love{
+  height: 300px;
+  width: 300px;
+  background-color: red;
+  text-align: center;
+  font-size: 50px;
+  font-family: cursive;
+  border-radius: 30px;
+  margin: 0px auto;    /*to center an element*/
+}
