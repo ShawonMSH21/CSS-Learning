@@ -1,0 +1,32 @@
+/*
+CSS Display Property controls how an element is shown on the page. Here are common values:
+block – Element takes the full width (like <div>).
+inline – Element takes only the space of its content (like <span>), no new line.
+inline-block – Like inline but allows width and height to be set.
+none – Hides the element completely.
+*/
+.display{
+  background-color: cadetblue;
+  height: 300px;
+  width: 300px;
+  margin: 30px;
+  padding: 30px;
+}
+
+.display2{
+  background-color: cadetblue;
+  height: 300px;
+  width: 300px; /*does not work in inlineCSS*/
+  display: block;
+  display: inline-block;
+  margin: 30px;
+  padding: 30px;
+}
+
+.love{
+  width: 300px;
+  height: 300px;
+  background-color: darkblue;
+  /* opacity: 0%;   */
+  display: none; /*space also vanish*/
+}
