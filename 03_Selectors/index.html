@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selectors in CSS</title>
+  <!-- using internalCSS -->
+   <style>
+   /*element or tag selectors*/
+   h1{
+    color:red;
+   }
+
+   /*ID selectors*/
+   #firstDIV{
+    background-color: chartreuse;
+    font-style: italic;
+   }
+
+   /*Class selectors*/
+   .newClass{
+    color: blue;
+    font-weight: bold;
+   }
+
+   /*Group selector*/
+   h1, p, #firstDIV{
+    margin: 5px;
+   }
+
+   /*Universal Selectors*/
+   *{
+    padding: 10px;
+   }
+   </style>
+</head>
+<body>
+  
+<h1>Hello, good to see you!</h1>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, est!</p>
+
+<div id="firstDIV">
+  <p class="newClass">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quos vero mollitia, ut aspernatur repudiandae harum accusantium velit aliquam aut?</p>
+
+  <p  class="newClass">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique obcaecati aut commodi velit repellendus necessitatibus.</p>
+</div>
+
+
+</body>
+</html>
