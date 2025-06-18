@@ -42,3 +42,6 @@
   list-style-type: none;
   justify-content: space-around;
 }
+
+/* Sticky */
+/* Sticky also behaves like fixed but it is only exist only its parent div, not outside the another one */
