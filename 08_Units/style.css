@@ -26,3 +26,23 @@
   width: 80vw;
   height: 70vh;
 }
+
+/* em units (it follows parent size) */
+.parent {
+  font-size: 18px;
+}
+
+.child {
+  font-size: 1em;
+}
+
+/* rem units (it follows root element size) */
+.child {
+  font-size: 2rem; /*default value is 16px so 2rem = 32px*/
+}
+
+html {
+  font-size: 20px;
+}
+
+/* if i change the value of root element from 16px to 20px then font-size of child element will be 40px*/
