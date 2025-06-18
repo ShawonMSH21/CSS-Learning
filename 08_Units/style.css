@@ -1,0 +1,12 @@
+/* use of percentage (relative unit) */
+.percentage {
+  background-color: pink;
+  border: 1px solid green;
+  width: 80%;
+}
+
+.percentage2 {
+  background-color: red;
+  border: 1px solid cyan;
+  width: 25%; /*it takes 25% width of parent element*/
+}
