@@ -1,7 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* use of percentage (relative unit) */
 .percentage {
-  background-color: pink;
-  border: 1px solid green;
+  background-color: green;
+  border: 1px solid red;
   width: 80%;
 }
 
@@ -9,4 +15,14 @@
   background-color: red;
   border: 1px solid cyan;
   width: 25%; /*it takes 25% width of parent element*/
+}
+
+/* use of vw and vh */
+.vw-vh {
+  margin-top: 10px;
+  border: 2px solid black;
+  background-color: pink;
+  padding: 10px;
+  width: 80vw;
+  height: 70vh;
 }
