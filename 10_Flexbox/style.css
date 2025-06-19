@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.flexbox {
+  border: 2px solid green;
+  /* background-color: rgba(25, 39, 167, 0.509); */
+  width: 90vw;
+  margin: 10px auto;
+  height: 90vh;
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  /* flex-direction: row; */
+  /* flex-wrap: nowrap; */
+  /* flex-wrap: wrap;    */
+  /* flex-wrap: wrap-reverse; */
+  /* flex-flow: row wrap; */
+  /* justify-content: start; */
+  /* justify-content: end; */
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* align-content: center; */
+}
+.flex-item {
+  height: 100px;
+  width: 100px;
+  border: 3px solid pink;
+  margin: 2px;
+  text-align: center;
+  /* flex-grow: 1; */
+}
+
+.one {
+  background-color: #533b4d;
+  order: 1;
+}
+.two {
+  background-color: #f564a9;
+  order: 2;
+  /* flex-grow: 1; */
+}
+.three {
+  background-color: #faa4bd;
+  order: 3;
+  flex-basis: 400px;
+  align-self: center;
+}
+.four {
+  background-color: #fae3c6;
+  order: 4;
+}
+.five {
+  background-color: #3a59d1;
+  order: -1;
+}
