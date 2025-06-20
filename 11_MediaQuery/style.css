@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 40vh;
+  border: 2px solid green;
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.boxes {
+  width: 10%;
+  height: 50%;
+  padding: 10px;
+  margin: 2px;
+}
+
+.one {
+  background-color: #533b4d;
+}
+.two {
+  background-color: #f564a9;
+}
+.three {
+  background-color: #faa4bd;
+}
+.four {
+  background-color: #fae3c6;
+}
+.five {
+  background-color: #3a59d1;
+}
+.six {
+  background-color: #533b4d;
+}
+.seven {
+  background-color: #f564a9;
+}
+.eight {
+  background-color: #faa4bd;
+}
+.nine {
+  background-color: #fae3c6;
+}
+.ten {
+  background-color: #3a59d1;
+}
+
+/* Media Query Section */
+@media (max-width: 640px) {
+  .container {
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .boxes {
+    width: 50%;
+    height: 100vh;
+  }
+}
