@@ -24,3 +24,16 @@
   color: green;
   text-shadow: 5px 5px 5px pink; /*Text-Shadow*/
 }
+
+/* Root element variables */
+:root {
+  --primary-color: green;
+  --secondary-color: pink;
+}
+
+.nothing {
+  --box-width: 700px;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  width: var(--box-width); /*Only works in this scope*/
+}
